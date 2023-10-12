@@ -1,0 +1,39 @@
+.portfolio-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.portfolio-title {
+    color: #0D86F7;
+    text-align: center;
+}
+
+.portfolio-box {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+}
+
+.project-link {
+    display: inline-block;
+    text-decoration: none;    
+    width: 285px;
+    margin: 20px;
+}
+
+.project-title {
+    color: white;
+    text-align: center;
+}
+
+.project-description {
+    color: white;
+    text-align: center;    
+    height: auto;
+    text-align: justify;
+}

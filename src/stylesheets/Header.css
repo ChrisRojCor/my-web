@@ -1,0 +1,53 @@
+.header {
+    background-color: #1F242D;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 6.5vh;
+    align-items: center;
+}
+
+.icon {
+    background-color: #1F242D;
+    font-size: 50;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.c {    
+    color: #0D86F7;
+}
+
+.r {    
+    color: white;
+    margin-left: 0;
+}
+
+.link {
+    background-color: #1F242D;
+    color: #0D86F7;
+    text-decoration: none;
+    font-size: 20;
+    font-weight: bold;
+    position: absolute;
+}
+
+.link:hover {
+    color: white;
+}
+
+.home-text {
+    right: 24vw;
+}
+
+.skillset-text {
+    right: 18vw;
+}
+
+.portfolio-text {
+    right: 12vw;
+}
+
+.contact-text {
+    right: 6vw;
+}

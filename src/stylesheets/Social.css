@@ -1,0 +1,21 @@
+.social-container{
+    width: 100%;
+    height: auto;
+    background-color: #1F242D;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    background-color: #1F242D;
+    display: inline-block;
+    text-decoration: none;    
+    margin: 1rem 10rem;
+}
+
+.icon-image {
+    background-color: #1F242D;
+    width: 2.5rem;
+    height: auto;
+    
+}
