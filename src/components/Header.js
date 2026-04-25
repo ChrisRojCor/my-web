@@ -3,8 +3,7 @@ import '../stylesheets/Header.css';
 function Header(){
     return(
         <div className='header'>
-            <h1 className="icon c">C</h1>
-            <h1 className="icon r">R</h1>
+            <img className='icon' src={require('../img/css-3.png')} alt="Coding Icon" />
             <a className='link home-text' href="#home">Home</a>
             <a className='link skillset-text' href="#skillset">Skillset</a>
             <a className='link portfolio-text' href="#portfolio">Portfolio</a>
