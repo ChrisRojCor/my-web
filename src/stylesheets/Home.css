@@ -1,6 +1,6 @@
 .home-container {
     width: 100%;
-    height: clamp(300px, 520px, 80vh);
+    height: clamp(30vh, 85vh, 100vh);
     display: flex;
     flex-direction: column;
 }

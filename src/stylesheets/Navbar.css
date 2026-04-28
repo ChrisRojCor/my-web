@@ -1,4 +1,4 @@
-.header {
+.navbar {
     background-color: #1F242D;
     display: flex;
     flex-wrap: wrap;
@@ -13,9 +13,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.header a,
-.header p,
-.header span {
+.navbar a,
+.navbar p,
+.navbar span {
     font-size: clamp(0.875rem, 1.2vw, 1rem);
 }
 
@@ -55,3 +55,4 @@
 .contact-text {
     right: 6vw;
 }
+

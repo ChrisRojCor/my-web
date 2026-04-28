@@ -1,8 +1,8 @@
-import '../stylesheets/Header.css';
+import '../stylesheets/Navbar.css';
 
-function Header(){
+function Navbar(){
     return(
-        <div className='header'>
+        <div className='navbar'>
             <img className='icon' src={require('../img/css-3.png')} alt="Coding Icon" />
             <a className='link home-text' href="#home">Home</a>
             <a className='link skillset-text' href="#skillset">Skillset</a>
@@ -12,4 +12,4 @@ function Header(){
     );
 }
 
-export default Header;
+export default Navbar;
