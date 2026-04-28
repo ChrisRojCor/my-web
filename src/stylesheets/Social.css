@@ -1,4 +1,4 @@
-.social-container{
+.social-container {
     width: 100%;
     height: auto;
     background-color: #1F242D;
@@ -6,16 +6,21 @@
     justify-content: center;
 }
 
+.icon-group {
+    background-color: transparent;
+    padding: 1rem;
+}
+
 .social-icon {
-    background-color: #1F242D;
+    background-color: transparent;
     display: inline-block;
-    text-decoration: none;    
-    margin: 1rem 10rem;
+    text-decoration: none;
+    margin: 0.5rem 3rem;
 }
 
 .icon-image {
-    background-color: #1F242D;
     width: 2.5rem;
     height: auto;
-    
+    background-color: transparent;
 }
+

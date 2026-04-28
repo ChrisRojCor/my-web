@@ -2,7 +2,7 @@ import '../stylesheets/Skillset.css';
 
 function Skillset() {
     return (
-        <div className='skillset' id='skillset'>
+        <section className='skillset' id='skillset'>
             <h1 className='skillset-title'>Skillset</h1>
             <div className='skillset-box'>
                 <Skill
@@ -28,11 +28,11 @@ function Skillset() {
                     image='spring-boot.png' />
                 <Skill
                     skillName='MySQL'
-                    image='mysql.png' /> 
-                                   
+                    image='mysql.png' />
+
 
             </div>
-        </div>
+        </section>
     );
 }
 

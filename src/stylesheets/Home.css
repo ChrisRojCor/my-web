@@ -1,8 +1,8 @@
 .home-container {
     width: 100%;
-    height: clamp(30vh, 85vh, 100vh);
-    display: flex;
-    flex-direction: column;
+    height: clamp(10vh, 85vh, 100vh);
+    align-content: center;
+
 }
 
 .my-name {
@@ -12,7 +12,7 @@
     position: relative;
     width: fit-content;
     left: 15vw;
-    top: 30%;
+    
 }
 
 .name-color {
@@ -28,7 +28,7 @@
     margin-bottom: 20px;
     position: relative;
     left: 15vw;
-    top: 30%;
+    
 }
 
 .download-cv {
@@ -40,7 +40,6 @@
     border-radius: 40px;
     position: relative;
     left: clamp(10vw, 15vw, 30vw);
-    top: clamp(20%, 30%, 60%);
     width: fit-content;
     text-align: center;
     display: inline-block;
@@ -48,4 +47,9 @@
     line-height: 1.4;
     text-align: center;
     margin: 0;
+    margin-top: 1 rem;
+}
+
+.home-actions{
+    margin-top: 1rem;
 }

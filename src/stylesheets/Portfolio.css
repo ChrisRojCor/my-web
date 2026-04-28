@@ -13,17 +13,18 @@
 }
 
 .portfolio-box {
-    width: fit-content;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
     margin-top: 3rem;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .project-link {
     display: inline-block;
     text-decoration: none;    
-    width: 285px;
-    margin: 20px;
+    width: 100%;
+    margin: 10px;
 }
 
 .project-title {

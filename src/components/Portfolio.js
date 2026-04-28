@@ -2,7 +2,7 @@ import '../stylesheets/Portfolio.css';
 
 function Portfolio() {
     return (
-        <div className='portfolio-container' id='portfolio'>
+        <section className='portfolio-container' id='portfolio'>
             <h1 className='portfolio-title'>Portfolio</h1>
             <div className='portfolio-box'>
                 <Project
@@ -17,8 +17,12 @@ function Portfolio() {
                     title='3'
                     description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
                 />
+                <Project
+                    title='4'
+                    description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+                />
             </div>
-        </div>
+        </section>
 
     );
 }
