@@ -1,5 +1,59 @@
-.contact-container {
-    display: block;
+.contact-section {
     width: 100%;
-    height: auto;
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+        to bottom, 
+        #1D2026 0%, 
+        #242830 100% )
 }
+
+.contact-title {
+    color: #0D86F7;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-description {
+    color: #ccc;
+    margin-bottom: 3rem;
+    max-width: 500px;
+}
+
+.contact-links-container {
+    display: grid;
+    /* Grid responsivo: 1 columna en móvil, 3 en escritorio */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.contact-link {
+    padding: 1.5rem;
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Efectos de Hover personalizados */
+.contact-link:hover {
+    transform: translateY(-5px);
+    border-color: #0D86F7;
+    background-color: rgba(13, 134, 247, 0.1);
+}
+
+.email:hover { border-color: #ff4b2b; }
+
+.linkedin:hover { border-color: #0077b5; }
+
+.github:hover { border-color: #6e5494; }

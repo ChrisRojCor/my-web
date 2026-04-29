@@ -1,18 +1,17 @@
 .navbar {
-    background-color: #1F242D;
+    background-color: rgba(31, 36, 45, 0.7); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    min-height: clamp(50px, 6.5vh, 90px);
     align-items: center;
     justify-content: space-between;
-    padding-left: clamp(15px, 5%, 50px);
-    padding-right: clamp(15px, 5%, 50px);
+    min-height: clamp(50px, 6.5vh, 90px);
+    padding: 0 clamp(15px, 5%, 50px);
     position: sticky;
     top: 0;
     z-index: 10;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
 }
 
 .nav-links {
@@ -20,7 +19,7 @@
     align-items: center;
     gap: clamp(1rem, 2vw, 2rem);
     margin-left: auto;
-    background-color: #1F242D;
+    background-color: transparent;
 }
 
 .navbar a,
