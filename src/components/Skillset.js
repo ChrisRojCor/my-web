@@ -12,7 +12,7 @@ function Skillset() {
                     skillName='CSS'
                     image='css-3.png' />
                 <Skill
-                    skillName='Javascript'
+                    skillName='JavaScript'
                     image='js.png' />
                 <Skill
                     skillName='React'

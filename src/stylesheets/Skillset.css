@@ -30,11 +30,13 @@
 .skill-icon {
     width: 5rem;
     height: 5rem;
+    filter: grayscale(100%) opacity(0.6);
+    transition: all 0.3s ease;
 }
 
-.skill-icon img {
-    width: 100%;
-    height: auto;
+.skill:hover .skill-icon {
+    filter: grayscale(0%) opacity(1);
+    transform: scale(1.1);
 }
 
 .skill-subtitle {
