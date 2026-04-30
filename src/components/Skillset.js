@@ -2,7 +2,7 @@ import '../stylesheets/Skillset.css';
 
 function Skillset() {
     return (
-        <section className='skillset' id='skillset'>
+        <section className='skillset-section' id='skillset'>
             <h1 className='skillset-title'>Skillset</h1>
             <div className='skillset-box'>
                 <Skill

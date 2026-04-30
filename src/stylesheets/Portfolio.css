@@ -1,6 +1,5 @@
-.portfolio-container {
+.portfolio-section {
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +14,8 @@
 .portfolio-box {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+    width: 80%;
+    max-width: 1200px;
     margin-top: 3rem;
     padding: 1rem;
     gap: 1rem;
@@ -22,9 +23,9 @@
 
 .project-link {
     display: inline-block;
-    text-decoration: none;    
+    text-decoration: none;
     width: 100%;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 .project-title {
@@ -34,7 +35,5 @@
 
 .project-description {
     color: white;
-    text-align: center;    
-    height: auto;
     text-align: justify;
 }

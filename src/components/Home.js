@@ -3,7 +3,7 @@ import resume from '../docs/resume.pdf'
 
 function Home() {
     return (
-        <section className='home-container' id='home'>
+        <section className='home-section' id='home'>
             <div className='home-content'>
                 <h1 className='my-name'>
                     I'm <span className='name-color'>Cristian</span> Rojas

@@ -2,7 +2,7 @@ import '../stylesheets/Portfolio.css';
 
 function Portfolio() {
     return (
-        <section className='portfolio-container' id='portfolio'>
+        <section className='portfolio-section' id='portfolio'>
             <h1 className='portfolio-title'>Portfolio</h1>
             <div className='portfolio-box'>
                 <Project

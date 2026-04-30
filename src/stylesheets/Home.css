@@ -1,19 +1,14 @@
-.home-container {
+.home-section {
     width: 100%;
     height: clamp(10vh, 85vh, 100vh);
     align-content: center;
-    background-color: #1D2026;
-
 }
 
 .my-name {
     color: white;
     font-size: clamp(1rem, 3vw, 2.5rem);
     font-weight: bold;
-    position: relative;
-    width: fit-content;
-    left: 15vw;
-    
+    margin-left: 15vw;
 }
 
 .name-color {
@@ -27,9 +22,7 @@
     text-align: justify;
     margin-top: 10px;
     margin-bottom: 20px;
-    position: relative;
-    left: 15vw;
-    
+    margin-left: 15vw;
 }
 
 .download-cv {
@@ -39,18 +32,14 @@
     text-decoration: none;
     padding: clamp(0.5vw, 1vw, 1.5vw);
     border-radius: 40px;
-    position: relative;
-    left: clamp(10vw, 15vw, 30vw);
-    width: fit-content;
+    margin-left: 15vw;
     text-align: center;
     display: inline-block;
     font-size: clamp(0.5rem, 1vw, 1.5rem);
     line-height: 1.4;
-    text-align: center;
-    margin: 0;
-    margin-top: 1 rem;
 }
 
-.home-actions{
-    margin-top: 1rem;
+.download-cv:hover {
+    transform: translateY(-5px);
+    background-color: #0A6CD9;
 }

@@ -1,17 +1,15 @@
-.skillset {
+.skillset-section {
     width: 100%;
-    display: flex;    
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 2rem;
     background-color: #242830;
-
 }
 
 .skillset-title {
     color: #0D86F7;
     margin-bottom: 3rem;
-    background-color: transparent;
 }
 
 .skillset-box {
@@ -20,7 +18,6 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     padding: 1rem;
-    background-color: transparent;
 }
 
 .skill {
@@ -28,27 +25,21 @@
     place-items: center;
     text-align: center;
     gap: 0.5rem;
-    background-color: transparent;
 }
 
 .skill-icon {
-    width: 5rem; 
-    height: 5rem; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
+    width: 5rem;
+    height: 5rem;
 }
 
 .skill-icon img {
-max-width: 100%;
-height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .skill-subtitle {
-font-size: 1.2rem;
-font-weight: normal;
-color: white;
-background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: white;
 }
 
