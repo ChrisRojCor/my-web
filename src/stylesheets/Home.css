@@ -2,6 +2,7 @@
     width: 100%;
     height: clamp(10vh, 85vh, 100vh);
     align-content: center;
+    background-color: #1D2026;
 
 }
 

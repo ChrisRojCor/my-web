@@ -19,39 +19,21 @@
     align-items: center;
     gap: clamp(1rem, 2vw, 2rem);
     margin-left: auto;
-    background-color: transparent;
-}
-
-.navbar a,
-.navbar p,
-.navbar span {
-    font-size: clamp(0.875rem, 1.2vw, 1rem);
 }
 
 .icon {
-    background-color: #1F242D;
     width: clamp(20px, 5vw, 30px);
     height: clamp(20px, 5vw, 30px);
     display: inline-block;
-    text-align: center;
 }
 
 .link {
-    background-color: #1F242D;
     color: #0D86F7;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: bold;
-    white-space: nowrap;
 }
 
 .link:hover {
     color: white;
-}
-
-.home-text,
-.skillset-text,
-.portfolio-text,
-.contact-text {
-    position: relative;
 }
