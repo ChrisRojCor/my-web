@@ -46,7 +46,7 @@
     background-color: #0A6CD9;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
 
     .home-content {
         width: 100%;
