@@ -3,10 +3,11 @@
     flex-direction: column;
     align-items: center;
     padding: 3rem;
+    background-color: #242830;
 }
 
 .portfolio-title {
-    color: #0D86F7;
+    color: #F9FAFB;
     text-align: center;
 }
 
@@ -27,13 +28,26 @@
     justify-content: center;
 }
 
+.project-box {
+    background-color: #1F2937;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover .project-box {
+    background-color: #273549;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
 .project-title {
-    color: white;
+    color: #F9FAFB;
     text-align: center;
 }
 
 .project-description {
-    color: white;
+    color: #F9FAFB;
     text-align: justify;
 }
 
@@ -42,7 +56,7 @@
 }
 
 .project-tags span{
-    color: white;
+    color: #F9FAFB;
     width: 1rem;
     margin-right: 0.5rem;
     background-color: #0D86F7;

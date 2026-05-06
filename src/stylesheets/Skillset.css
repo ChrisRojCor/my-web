@@ -7,7 +7,7 @@
 }
 
 .skillset-title {
-    color: #0D86F7;
+    color: #F9FAFB;
     margin-bottom: 3rem;
 }
 
@@ -35,7 +35,7 @@
 .skill-subtitle {
     font-size: 1.2rem;
     font-weight: normal;
-    color: white;
+    color: #F9FAFB;
 }
 
 @media (hover: hover) {

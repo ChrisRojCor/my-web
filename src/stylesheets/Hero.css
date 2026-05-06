@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1D2026;
 }
 
 .hero-content {
@@ -11,7 +12,7 @@
 }
 
 .my-name {
-    color: white;
+    color: #F9FAFB;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -21,7 +22,7 @@
 }
 
 .introduction {
-    color: white;
+    color: #F9FAFB;
     font-size: 1.1rem;
     text-align: justify;
     margin-top: 10px;
@@ -30,7 +31,7 @@
 
 .download-cv {
     background-color: #0D86F7;
-    color: white;
+    color: #F9FAFB;
     font-weight: bold;
     text-decoration: none;
     padding: clamp(0.5vw, 1vw, 1.5vw);

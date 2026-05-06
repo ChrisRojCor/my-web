@@ -3,11 +3,11 @@
     flex-direction: column;
     align-items: center;
     padding: 3rem;
-    background-color: #242830;
+    background-color: #1D2026;
 }
 
 .education-title {
-    color: #0D86F7;
+    color: #F9FAFB;
     margin-bottom: 3rem;
     text-align: center;
 }
@@ -22,9 +22,16 @@
 }
 
 .edu-card {
-    background-color: #1D2026;
+    background-color: #1F2937;
     padding: 1.5rem;
     border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.edu-card:hover {
+    background-color: #273549;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
 .edu-header {
@@ -34,7 +41,7 @@
 }
 
 .edu-degree {
-    color: white;
+    color: #F9FAFB;
     font-size: 1.2rem;
     font-weight: bold;
     margin: 0;
@@ -47,7 +54,7 @@
 }
 
 .edu-institution {
-    color: white;
+    color: #F9FAFB;
     font-size: 1rem;
     margin: 0;
 }

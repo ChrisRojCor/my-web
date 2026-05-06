@@ -3,11 +3,11 @@
     flex-direction: column;
     align-items: center;
     padding: 3rem;
-    background-color: #242830;
+    background-color: #1D2026;
 }
 
 .experience-title {
-    color: #0D86F7;
+    color: #F9FAFB;
     margin-bottom: 3rem;
     text-align: center;
 }
@@ -22,9 +22,16 @@
 }
 
 .exp-card {
-    background-color: #1D2026;
+    background-color: #1F2937;
     padding: 1.5rem;
     border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.exp-card:hover {
+    background-color: #273549;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
 .exp-header {
@@ -35,7 +42,7 @@
 }
 
 .exp-tag {
-    color: white;
+    color: #F9FAFB;
     background-color: #0D86F7;
     padding: 0.05rem;
     padding-inline: 0.5rem;
@@ -44,7 +51,7 @@
 }
 
 .exp-role {
-    color: white;
+    color: #F9FAFB;
     font-size: 1.2rem;
     font-weight: bold;
     margin: 0;
@@ -58,7 +65,7 @@
 }
 
 .exp-company {
-    color: white;
+    color: #F9FAFB;
     font-size: 1rem;
     margin: 0;
 }
@@ -69,7 +76,7 @@
 }
 
 .exp-description {
-    color: white;
+    color: #F9FAFB;
     text-align: justify;
     font-size: 0.95rem;
 }
