@@ -34,17 +34,22 @@
     color: #F9FAFB;
     font-weight: bold;
     text-decoration: none;
-    padding: clamp(0.5vw, 1vw, 1.5vw);
-    border-radius: 40px;
+    padding: clamp(0.2rem, 0.5rem, 1rem);
+    border-radius: 8px;
     text-align: center;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     font-size: 0.8rem;
     line-height: 1.4;
+    border: 1px solid #333;
+    transition: all 0.3s ease;
 }
 
 .download-cv:hover {
     transform: translateY(-5px);
     background-color: #0A6CD9;
+    border-color: #0D86F7;
 }
 
 @media (max-width: 1023px) {
