@@ -5,42 +5,38 @@ function Skillset() {
         <section className='skillset-section' id='skillset'>
             <h1 className='skillset-title'>Skillset</h1>
             <div className='skillset-box'>
-                <Skill
-                    skillName='HTML'
-                    image='html-5.png' />
-                <Skill
-                    skillName='CSS'
-                    image='css-3.png' />
-                <Skill
-                    skillName='JavaScript'
-                    image='js.png' />
-                <Skill
-                    skillName='React'
-                    image='react.png' />
-                <Skill
-                    skillName='Python'
-                    image='python.png' />
-                <Skill
-                    skillName='Java'
-                    image='java.png' />
-                <Skill
-                    skillName='Spring'
-                    image='spring-boot.png' />
-                <Skill
-                    skillName='MySQL'
-                    image='mysql.png' />
-
-
+                <CategoryCard
+                    title='Frontend'
+                    items={['HTML', 'CSS', 'JavaScript', 'React']}
+                />
+                <CategoryCard
+                    title='Backend'
+                    items={['Python', 'Java', 'Spring Boot', 'MySQL']}
+                />
+                <CategoryCard
+                    title='Tools'
+                    items={['Git', 'Docker', 'VS Code', 'Postman']}
+                />
+                <CategoryCard
+                    title='Product & Quality'
+                    items={['Agile/Scrum', 'Testing', 'CI/CD', 'Code Review']}
+                />
             </div>
         </section>
     );
 }
 
-function Skill({ skillName, image }) {
+function CategoryCard({ title, items }) {
     return (
-        <div className='skill'>
-            <img className='skill-icon' src={require(`../img/${image}`)} alt='' />
-            <h2 className='skill-subtitle' >{skillName}</h2>
+        <div className='category-card'>
+            <div className='category-header'>
+                <h2 className='category-title'>{title}</h2>
+            </div>
+            <ul className='category-list'>
+                {items.map((item, index) => (
+                    <li key={index} className='category-item'>{item}</li>
+                ))}
+            </ul>
         </div>
     );
 }

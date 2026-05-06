@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     min-height: clamp(50px, 6.5vh, 90px);
-    padding: 0 clamp(15px, 5%, 50px);
+    padding: 0 14rem;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -79,6 +79,7 @@
         top: 0;
         width: 100%;
         min-height: clamp(50px, 6.5vh, 90px);
+        padding: 0 clamp(15px, 5%, 50px);
     }
 
     .nav-hamburger {
