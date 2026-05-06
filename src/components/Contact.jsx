@@ -13,7 +13,7 @@ function Contact() {
                     href='mailto:tu-correo@ejemplo.com' 
                     className='contact-link email'
                 >
-                    <span className="link-text">Enviar un correo</span>
+                    <img src={require('../img/gmail.png')} alt="Email" />
                 </a>
                 {/* Enlace de LinkedIn */}
                 <a 
@@ -22,7 +22,7 @@ function Contact() {
                     rel='noopener noreferrer' 
                     className='contact-link linkedin'
                 >
-                    <span className="link-text">LinkedIn</span>
+                    <img src={require('../img/linkedin.png')} alt="LinkedIn" />
                 </a>
                 {/* Enlace de GitHub */}
                 <a 
@@ -31,7 +31,7 @@ function Contact() {
                     rel='noopener noreferrer' 
                     className='contact-link github'
                 >
-                    <span className="link-text">GitHub</span>
+                    <img src={require('../img/github.png')} alt="GitHub" />
                 </a>
             </div>
         </section>

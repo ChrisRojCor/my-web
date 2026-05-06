@@ -1,0 +1,64 @@
+.education-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background-color: #242830;
+}
+
+.education-title {
+    color: #0D86F7;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.education-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    width: 80%;
+    margin-top: 3rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.edu-card {
+    background-color: #1D2026;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.edu-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.edu-degree {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.edu-subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edu-institution {
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.edu-dates {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 1023px) {
+    .education-box {
+        width: 100%;
+    }
+}

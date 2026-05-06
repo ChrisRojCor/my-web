@@ -12,9 +12,10 @@ function Navbar() {
             <img className='icon' src={require('../img/css-3.png')} alt="Coding Icon" />
             
             <div className='nav-links'>
-                <a className='link home-text' href="#home">Home</a>
+                <a className='link hero-text' href="#hero">Home</a>
                 <a className='link skillset-text' href="#skillset">Skillset</a>
                 <a className='link portfolio-text' href="#portfolio">Portfolio</a>
+                <a className='link education-text' href="#education">Education</a>
                 <a className='link contact-text' href="#contact">Contact</a>
             </div>
 
@@ -25,9 +26,10 @@ function Navbar() {
             </div>
 
             <div className='nav-menu'>
-                <a className='link home-text' href="#home" onClick={closeMenu}>Home</a>
+                <a className='link hero-text' href="#hero" onClick={closeMenu}>Home</a>
                 <a className='link skillset-text' href="#skillset" onClick={closeMenu}>Skillset</a>
                 <a className='link portfolio-text' href="#portfolio" onClick={closeMenu}>Portfolio</a>
+                <a className='link education-text' href="#education" onClick={closeMenu}>Education</a>
                 <a className='link contact-text' href="#contact" onClick={closeMenu}>Contact</a>
             </div>
         </nav>
