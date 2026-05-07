@@ -14,6 +14,7 @@ function Navbar() {
             <div className='nav-links'>
                 <a className='link hero-text' href="#hero">Home</a>
                 <a className='link skillset-text' href="#skillset">Skillset</a>
+                <a className='link experience-text' href="#experience">Experience</a>
                 <a className='link portfolio-text' href="#portfolio">Portfolio</a>
                 <a className='link education-text' href="#education">Education</a>
                 <a className='link contact-text' href="#contact">Contact</a>
@@ -28,6 +29,7 @@ function Navbar() {
             <div className='nav-menu'>
                 <a className='link hero-text' href="#hero" onClick={closeMenu}>Home</a>
                 <a className='link skillset-text' href="#skillset" onClick={closeMenu}>Skillset</a>
+                <a className='link experience-text' href="#experience" onClick={closeMenu}>Experience</a>
                 <a className='link portfolio-text' href="#portfolio" onClick={closeMenu}>Portfolio</a>
                 <a className='link education-text' href="#education" onClick={closeMenu}>Education</a>
                 <a className='link contact-text' href="#contact" onClick={closeMenu}>Contact</a>

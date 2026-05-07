@@ -50,7 +50,6 @@
 
 /* Efectos de Hover personalizados */
 .contact-link:hover {
-    transform: translateY(-5px);
     border-color: #0D86F7;
     background-color: rgba(13, 134, 247, 0.1);
 }

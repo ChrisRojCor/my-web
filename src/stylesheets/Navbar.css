@@ -47,7 +47,7 @@
 .nav-links {
     display: flex;
     align-items: center;
-    gap: clamp(1rem, 2vw, 2rem);
+    gap: 1rem;
     margin-left: auto;
 }
 
