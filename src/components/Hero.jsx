@@ -1,5 +1,8 @@
 import '../stylesheets/Hero.css';
 import resume from '../docs/resume.pdf'
+import fileIcon from '../img/file.png';
+import linkedinIcon from '../img/linkedin-hero.png';
+import githubIcon from '../img/github.png';
 
 function Hero() {
     return (
@@ -27,7 +30,18 @@ function Hero() {
                      Nulla facilisi phasellus.
                 </p>
                 <div className='hero-actions'>
-                    <a className='download-cv' href={resume} download>Download CV</a>
+                    <a className='social-btn linkedin' href='https://www.linkedin.com/in/tu-perfil' target='_blank' rel='noopener noreferrer'>
+                        <img src={linkedinIcon} alt="LinkedIn" className="btn-icon" />
+                        LinkedIn
+                    </a>
+                    <a className='social-btn github' href='https://github.com/tu-usuario' target='_blank' rel='noopener noreferrer'>
+                        <img src={githubIcon} alt="GitHub" className="btn-icon" />
+                        GitHub
+                    </a>
+                    <a className='download-cv' href={resume} download>
+                        <img src={fileIcon} alt="" className="btn-icon" />
+                        Download CV
+                    </a>
                 </div>
             </div>
         </section>

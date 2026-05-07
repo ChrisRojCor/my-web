@@ -48,6 +48,10 @@
     object-fit: contain;
 }
 
+.contact-link.github img {
+    filter: brightness(0) invert(1);
+}
+
 /* Efectos de Hover personalizados */
 .contact-link:hover {
     border-color: #0D86F7;

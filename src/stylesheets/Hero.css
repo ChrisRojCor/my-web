@@ -28,6 +28,13 @@
     margin-bottom: 20px;
 }
 
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.social-btn,
 .download-cv {
     background-color: #0D86F7;
     color: #F9FAFB;
@@ -45,10 +52,20 @@
     transition: all 0.3s ease;
 }
 
+.social-btn:hover,
 .download-cv:hover {
     transform: translateY(-5px);
     background-color: #0A6CD9;
     border-color: #0D86F7;
+}
+
+.btn-icon {
+    height: 1em;
+    width: auto;
+    margin-right: 0.5em;
+    filter: brightness(0) invert(1);
+    display: inline-block;
+    flex-shrink: 0;
 }
 
 @media (max-width: 1023px) {

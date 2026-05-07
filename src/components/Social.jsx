@@ -5,7 +5,7 @@ function Social() {
         <section className='social-container'>
             <div className='icon-group'>
                 <a className='social-icon' href=''>
-                    <img className='icon-image' src={require('../img/linkedin.png')} alt='' />
+                    <img className='icon-image' src={require('../img/linkedin-hero.png')} alt='' />
                 </a>
                 <a className='social-icon' href=''>
                     <img className='icon-image' src={require('../img/github.png')} alt='' />
