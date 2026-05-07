@@ -55,10 +55,21 @@
     display: none;
 }
 
-.icon {
-    width: clamp(20px, 5vw, 30px);
-    height: clamp(20px, 5vw, 30px);
-    display: inline-block;
+.logo-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo-c {
+    font-size: clamp(1.2rem, 5vw, 1.6rem);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0D86F7;
+    transition: color 0.3s ease;
+}
+
+.logo-c:hover {
+    color: white;
 }
 
 .link {

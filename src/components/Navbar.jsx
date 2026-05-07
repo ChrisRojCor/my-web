@@ -9,7 +9,7 @@ function Navbar() {
 
     return (
         <nav className={`navbar ${isOpen ? 'open' : ''}`}>
-            <img className='icon' src={require('../img/css-3.png')} alt="Coding Icon" />
+            <a href="#hero" className="logo-link"><span className="logo-c">C</span></a>
             
             <div className='nav-links'>
                 <a className='link hero-text' href="#hero">Home</a>

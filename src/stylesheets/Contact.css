@@ -21,7 +21,6 @@
 
 .contact-links-container {
     display: grid;
-    /* Grid responsivo: 1 columna en móvil, 3 en escritorio */
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
     width: 100%;
@@ -52,7 +51,6 @@
     filter: brightness(0) invert(1);
 }
 
-/* Efectos de Hover personalizados */
 .contact-link:hover {
     border-color: #0D86F7;
     background-color: rgba(13, 134, 247, 0.1);
