@@ -16,16 +16,21 @@
     font-weight: bold;
 }
 
+.hero-content h2{
+    color: #0D86F7;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
 .name-color {
     color: #0D86F7;
 }
 
-.introduction {
+.hero-content p{
     color: #F9FAFB;
-    font-size: 1.1rem;
-    text-align: justify;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .hero-actions {
@@ -72,5 +77,13 @@
 
     .hero-content {
         width: 100%;
+    }
+
+    .my-name {
+        font-size: 1.5rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.1rem;
     }
 }

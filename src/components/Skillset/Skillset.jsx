@@ -1,4 +1,4 @@
-import '../stylesheets/Skillset.css';
+import './Skillset.css';
 
 function Skillset() {
     return (

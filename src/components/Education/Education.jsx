@@ -1,25 +1,14 @@
-import '../stylesheets/Education.css';
+import './Education.css';
+import educationData from '../../data/education.js';
 
 function Education() {
     return (
         <section className='education-section' id='education'>
             <h1 className='education-title'>Education</h1>
             <div className='education-box'>
-                <EducationCard
-                    degree='Degree Name'
-                    institution='Institution Name'
-                    dates='Jan 2020 - Dec 2024'
-                />
-                <EducationCard
-                    degree='Previous Degree'
-                    institution='Previous Institution'
-                    dates='Jan 2016 - Dec 2020'
-                />
-                <EducationCard
-                    degree='Earlier Degree'
-                    institution='Earlier Institution'
-                    dates='Jan 2012 - Dec 2016'
-                />
+                {educationData.map((edu, index) => (
+                    <EducationCard key={index} {...edu} />
+                ))}
             </div>
         </section>
     );
