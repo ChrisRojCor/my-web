@@ -16,7 +16,7 @@ function Hero() {
                 </h2>
                 <p>
                     I'm a software engineer with a foundation in full-stack development and a keen eye for quality, process, and detail.
-                    I take pride in building reliable, well-structured applications — and in bridging the gap between technical teams and business needs.
+                    I take pride in building reliable, well-structured applications and in bridging the gap between technical teams and business needs.
                     My background spans Java, Python, and JavaScript, and I'm equally comfortable working on backend logic, REST API integrations, and React-based frontends.
 
                 </p>
@@ -24,7 +24,7 @@ function Hero() {
                     I'm currently completing my Software Engineering degree (expected 2027), and my path here has been shaped by more than just code.
                 </p>
                 <p>
-                    Previously, I spent several years in quality management and business administration, where I developed a rigorous, process-oriented mindset — skills that now directly inform how I approach software architecture, requirement validation, and stakeholder communication.
+                    Previously, I spent several years in quality management and business administration, where I developed a rigorous, process-oriented mindset skills that now directly inform how I approach software architecture, requirement validation, and stakeholder communication.
                 </p>
                 <p>
                     I do my best work at the intersection of engineering and product thinking, where technical precision meets real-world usability. I'm driven by building things that are both well-crafted and genuinely useful.

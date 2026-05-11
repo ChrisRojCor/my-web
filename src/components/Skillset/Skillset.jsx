@@ -1,26 +1,14 @@
 import './Skillset.css';
+import skillsData from '../../data/skills.js';
 
 function Skillset() {
     return (
         <section className='skillset-section' id='skillset'>
             <h1 className='skillset-title'>Skillset</h1>
             <div className='skillset-box'>
-                <CategoryCard
-                    title='Frontend'
-                    items={['HTML', 'CSS', 'JavaScript', 'React']}
-                />
-                <CategoryCard
-                    title='Backend'
-                    items={['Python', 'Java', 'Spring Boot', 'MySQL']}
-                />
-                <CategoryCard
-                    title='Tools'
-                    items={['Git', 'Docker', 'VS Code', 'Postman']}
-                />
-                <CategoryCard
-                    title='Product & Quality'
-                    items={['Agile/Scrum', 'Testing', 'CI/CD', 'Code Review']}
-                />
+                {skillsData.map((category, index) => (
+                    <CategoryCard key={index} {...category} />
+                ))}
             </div>
         </section>
     );
